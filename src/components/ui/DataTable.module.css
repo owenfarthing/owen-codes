@@ -114,14 +114,14 @@
 
 .tableContainer {
 	overflow: auto;
-	min-height: 440px;
-	max-height: 440px;
+	min-height: 400px;
+	max-height: 400px;
 }
 
 @media (max-width: 640px) {
 	.tableContainer {
-		min-height: 300px;
-		max-height: 300px;
+		min-height: 250px;
+		max-height: 250px;
 	}
 }
 
