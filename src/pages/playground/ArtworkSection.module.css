@@ -1,112 +1,119 @@
 .card {
-  padding: 24px;
+	padding: 24px;
+	min-width: 0;
+	overflow: hidden;
+	max-width: 700px;
 }
 
 .media {
-  width: 100%;
-  border-radius: 12px;
-  margin-bottom: 20px;
-  background: var(--bg-tertiary);
+	max-width: 100%;
+	max-height: 400px;
+	object-fit: contain;
+	border-radius: 12px;
+	margin: 0 auto 20px;
+	background: var(--bg-tertiary);
 }
 
 .artTitle {
-  font-family: "DM Serif Display", serif;
-  font-size: 22px;
-  color: var(--text-primary);
-  margin-bottom: 4px;
+	font-family: 'DM Serif Display', serif;
+	font-size: 22px;
+	color: var(--text-primary);
+	margin-bottom: 4px;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 .artist {
-  font-size: 14px;
-  color: var(--text-secondary);
-  margin-bottom: 4px;
+	font-size: 14px;
+	color: var(--text-secondary);
+	margin-bottom: 4px;
 }
 
 .meta {
-  font-size: 13px;
-  color: var(--text-secondary);
-  margin-bottom: 12px;
-  font-style: italic;
+	font-size: 13px;
+	color: var(--text-secondary);
+	margin-bottom: 12px;
+	font-style: italic;
 }
 
 .description {
-  font-size: 14px;
-  color: var(--text-secondary);
-  line-height: 1.7;
-  overflow: hidden;
+	font-size: 14px;
+	color: var(--text-secondary);
+	line-height: 1.7;
+	overflow: hidden;
 }
 
 .clamped {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
 }
 
 .readMore {
-  background: none;
-  border: none;
-  color: var(--text-accent);
-  cursor: pointer;
-  font-size: 13px;
-  padding: 4px 0;
-  margin-top: 4px;
-  font-family: "DM Sans", sans-serif;
+	background: none;
+	border: none;
+	color: var(--text-accent);
+	cursor: pointer;
+	font-size: 13px;
+	padding: 4px 0;
+	margin-top: 4px;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .readMore:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .buttons {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
+	display: flex;
+	gap: 8px;
+	margin-bottom: 20px;
+	flex-wrap: wrap;
 }
 
 .btn {
-  padding: 6px 16px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--bg-primary);
-  color: var(--text-primary);
-  font-family: "DM Sans", sans-serif;
-  font-size: 13px;
-  cursor: pointer;
-  transition: border-color 0.2s ease, background-color 0.2s ease;
+	padding: 6px 16px;
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	background: var(--bg-primary);
+	color: var(--text-primary);
+	font-family: 'DM Sans', sans-serif;
+	font-size: 13px;
+	cursor: pointer;
+	transition: border-color 0.2s ease, background-color 0.2s ease;
 }
 
 .btn:hover {
-  border-color: var(--text-accent);
+	border-color: var(--text-accent);
 }
 
 .btnActive {
-  border-color: var(--text-accent);
-  color: var(--text-accent);
+	border-color: var(--text-accent);
+	color: var(--text-accent);
 }
 
 .refreshIcon {
-  margin-left: 4px;
-  vertical-align: -1px;
+	margin-left: 4px;
+	vertical-align: -1px;
 }
 
 .viewLink {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  margin-top: 12px;
-  font-size: 13px;
-  color: var(--text-accent);
-  text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	margin-top: 12px;
+	font-size: 13px;
+	color: var(--text-accent);
+	text-decoration: none;
 }
 
 .viewLink:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .error {
-  text-align: center;
-  color: var(--text-secondary);
-  padding: 40px 0;
-  font-size: 14px;
+	text-align: center;
+	color: var(--text-secondary);
+	padding: 40px 0;
+	font-size: 14px;
 }

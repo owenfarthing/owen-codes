@@ -8,17 +8,18 @@
 }
 
 /* Theme transitions — scoped to avoid firing on every DOM element (e.g. table row swaps) */
-body,
 header,
-section,
 nav,
 a,
 button,
 input,
 select,
-.float-card,
-.graph-paper-bg {
+.float-card {
   transition: background-color 0.3s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+body {
+  transition: color 0.2s ease;
 }
 
 html,

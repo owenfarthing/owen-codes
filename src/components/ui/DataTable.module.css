@@ -1,204 +1,204 @@
 .wrapper {
-  padding: 24px;
-  overflow: hidden;
+	padding: 24px;
+	overflow: hidden;
 }
 
 .controls {
-  display: flex;
-  gap: 12px;
-  margin-bottom: 16px;
-  flex-wrap: wrap;
+	display: flex;
+	gap: 12px;
+	margin-bottom: 16px;
+	flex-wrap: wrap;
 }
 
 .searchInput {
-  flex: 1;
-  min-width: 180px;
-  padding: 8px 12px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--bg-primary);
-  color: var(--text-primary);
-  font-family: "DM Sans", sans-serif;
-  font-size: 14px;
-  outline: none;
-  transition: border-color 0.2s ease;
+	flex: 1;
+	min-width: 180px;
+	padding: 8px 12px;
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	background: var(--bg-primary);
+	color: var(--text-primary);
+	font-family: 'DM Sans', sans-serif;
+	font-size: 14px;
+	outline: none;
+	transition: border-color 0.2s ease;
 }
 
 .searchInput:focus {
-  border-color: var(--text-accent);
+	border-color: var(--text-accent);
 }
 
 /* Custom dropdown */
 .dropdown {
-  position: relative;
+	position: relative;
 }
 
 .dropdownTrigger {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 32px 8px 12px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--bg-primary);
-  color: var(--text-primary);
-  font-family: "DM Sans", sans-serif;
-  font-size: 14px;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: border-color 0.2s ease;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 8px 32px 8px 12px;
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	background: var(--bg-primary);
+	color: var(--text-primary);
+	font-family: 'DM Sans', sans-serif;
+	font-size: 14px;
+	cursor: pointer;
+	white-space: nowrap;
+	transition: border-color 0.2s ease;
 }
 
 .dropdownTrigger:hover {
-  border-color: var(--text-accent);
+	border-color: var(--text-accent);
 }
 
 .dropdownValue {
-  color: var(--text-secondary);
+	color: var(--text-secondary);
 }
 
 .dropdownValueActive {
-  color: var(--text-primary);
+	color: var(--text-primary);
 }
 
 .dropdownChevron {
-  position: absolute;
-  right: 10px;
-  transition: transform 0.2s ease;
-  color: var(--text-secondary);
+	position: absolute;
+	right: 10px;
+	transition: transform 0.2s ease;
+	color: var(--text-secondary);
 }
 
 .dropdownChevronOpen {
-  transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 
 .dropdownMenu {
-  position: absolute;
-  top: calc(100% + 4px);
-  left: 0;
-  min-width: 100%;
-  max-height: 240px;
-  overflow-y: auto;
-  background: var(--bg-primary);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.06);
-  list-style: none;
-  z-index: 50;
-  padding: 4px;
+	position: absolute;
+	top: calc(100% + 4px);
+	left: 0;
+	min-width: 100%;
+	max-height: 240px;
+	overflow-y: auto;
+	background: var(--bg-primary);
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.06);
+	list-style: none;
+	z-index: 50;
+	padding: 4px;
 }
 
 .dropdownItem {
-  display: block;
-  width: 100%;
-  padding: 7px 12px;
-  border: none;
-  border-radius: 6px;
-  background: none;
-  color: var(--text-primary);
-  font-family: "DM Sans", sans-serif;
-  font-size: 13px;
-  text-align: left;
-  cursor: pointer;
-  transition: background-color 0.1s ease;
+	display: block;
+	width: 100%;
+	padding: 7px 12px;
+	border: none;
+	border-radius: 6px;
+	background: none;
+	color: var(--text-primary);
+	font-family: 'DM Sans', sans-serif;
+	font-size: 13px;
+	text-align: left;
+	cursor: pointer;
+	transition: background-color 0.1s ease;
 }
 
 .dropdownItem:hover {
-  background: var(--bg-secondary);
+	background: var(--bg-secondary);
 }
 
 .dropdownItemActive {
-  color: var(--text-accent);
-  font-weight: 600;
+	color: var(--text-accent);
+	font-weight: 600;
 }
 
 .tableContainer {
-  overflow: auto;
-  min-height: 540px;
-  max-height: 540px;
+	overflow: auto;
+	min-height: 440px;
+	max-height: 440px;
 }
 
 .table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 14px;
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
 }
 
 .table th {
-  text-align: left;
-  padding: 10px 12px;
-  border-bottom: 2px solid var(--border);
-  color: var(--text-secondary);
-  font-weight: 600;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  user-select: none;
-  white-space: nowrap;
+	text-align: left;
+	padding: 10px 12px;
+	border-bottom: 2px solid var(--border);
+	color: var(--text-secondary);
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	cursor: pointer;
+	user-select: none;
+	white-space: nowrap;
 }
 
 .table th:hover {
-  color: var(--text-accent);
+	color: var(--text-accent);
 }
 
 .sortIcon {
-  display: inline-block;
-  margin-left: 4px;
-  vertical-align: middle;
+	display: inline-block;
+	margin-left: 4px;
+	vertical-align: middle;
 }
 
 .table td {
-  padding: 10px 12px;
-  border-bottom: 1px solid var(--border);
-  color: var(--text-primary);
-  vertical-align: middle;
+	padding: 10px 12px;
+	border-bottom: 1px solid var(--border);
+	color: var(--text-primary);
+	vertical-align: middle;
 }
 
 .table tbody tr {
-  transition: background-color 0.15s ease;
+	transition: background-color 0.15s ease;
 }
 
 .table tbody tr:hover {
-  background: var(--bg-secondary);
+	background: var(--bg-secondary);
 }
 
 .pagination {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  margin-top: 16px;
-  font-size: 14px;
-  color: var(--text-secondary);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	margin-top: 16px;
+	font-size: 14px;
+	color: var(--text-secondary);
 }
 
 .pageBtn {
-  padding: 6px 14px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--bg-primary);
-  color: var(--text-primary);
-  font-family: "DM Sans", sans-serif;
-  font-size: 13px;
-  cursor: pointer;
-  transition: border-color 0.2s ease, background-color 0.2s ease;
+	padding: 6px 14px;
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	background: var(--bg-primary);
+	color: var(--text-primary);
+	font-family: 'DM Sans', sans-serif;
+	font-size: 13px;
+	cursor: pointer;
+	transition: border-color 0.2s ease, background-color 0.2s ease;
 }
 
 .pageBtn:hover:not(:disabled) {
-  border-color: var(--text-accent);
+	border-color: var(--text-accent);
 }
 
 .pageBtn:disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
+	opacity: 0.4;
+	cursor: not-allowed;
 }
 
 .skeletonRow td {
-  padding: 10px 12px;
+	padding: 10px 12px;
 }
 
 .skeletonCell {
-  height: 16px;
-  border-radius: 4px;
+	height: 16px;
+	border-radius: 4px;
 }
