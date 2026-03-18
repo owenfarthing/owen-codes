@@ -1,0 +1,48 @@
+/* Default (light) values on :root so page has colors before JS hydrates */
+:root {
+  --bg-primary: #F7F6F2;
+  --bg-secondary: #EEECEA;
+  --bg-tertiary: #E5E3DF;
+  --text-primary: #1A1916;
+  --text-secondary: #6B6860;
+  --text-accent: #2D6BE4;
+  --border: rgba(0, 0, 0, 0.1);
+  --surface-float: rgba(255, 255, 255, 0.72);
+  --grid-line: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="light"] {
+  --bg-primary: #F7F6F2;
+  --bg-secondary: #EEECEA;
+  --bg-tertiary: #E5E3DF;
+  --text-primary: #1A1916;
+  --text-secondary: #6B6860;
+  --text-accent: #2D6BE4;
+  --border: rgba(0, 0, 0, 0.1);
+  --surface-float: rgba(255, 255, 255, 0.72);
+  --grid-line: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] {
+  --bg-primary: #111110;
+  --bg-secondary: #1C1B19;
+  --bg-tertiary: #252420;
+  --text-primary: #F0EDE6;
+  --text-secondary: #9C9A92;
+  --text-accent: #5B9CF6;
+  --border: rgba(255, 255, 255, 0.08);
+  --surface-float: rgba(30, 28, 24, 0.72);
+  --grid-line: rgba(255, 255, 255, 0.04);
+}
+
+[data-theme="sunset"] {
+  --bg-primary: #1A0E08;
+  --bg-secondary: #251408;
+  --bg-tertiary: #321B0C;
+  --text-primary: #F5E8D4;
+  --text-secondary: #B89B78;
+  --text-accent: #F27A3A;
+  --border: rgba(255, 180, 80, 0.12);
+  --surface-float: rgba(40, 22, 8, 0.72);
+  --grid-line: rgba(255, 140, 40, 0.06);
+}

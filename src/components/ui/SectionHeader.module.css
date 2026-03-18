@@ -1,0 +1,42 @@
+.header {
+  margin-bottom: 32px;
+}
+
+.badge {
+  display: inline-block;
+  font-family: "DM Mono", monospace;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-accent);
+  margin-bottom: 8px;
+}
+
+.title {
+  font-family: "DM Serif Display", serif;
+  font-size: clamp(28px, 4vw, 36px);
+  font-weight: 400;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.subtitleLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.subtitleLink:hover {
+  color: var(--text-accent);
+}

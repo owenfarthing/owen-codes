@@ -1,0 +1,21 @@
+.arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-secondary);
+  padding: 8px;
+  border-radius: 50%;
+  transition: opacity 0.3s ease, color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow:hover {
+  color: var(--text-accent);
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}

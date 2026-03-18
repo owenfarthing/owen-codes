@@ -1,0 +1,32 @@
+.card {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-size: 13px;
+  color: var(--text-secondary);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.valueRow {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.value {
+  font-family: "DM Serif Display", serif;
+  font-size: 36px;
+  color: var(--text-primary);
+  line-height: 1.1;
+}
+
+.unit {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
