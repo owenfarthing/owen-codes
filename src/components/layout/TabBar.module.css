@@ -61,3 +61,19 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+@media (max-width: 640px) {
+  .headerInner {
+    justify-content: flex-start;
+    padding: 0 12px;
+  }
+
+  .tab {
+    font-size: 13px;
+    padding: 8px 10px;
+  }
+
+  .themeToggleArea {
+    right: 12px;
+  }
+}

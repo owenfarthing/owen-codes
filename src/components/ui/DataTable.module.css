@@ -118,6 +118,13 @@
 	max-height: 440px;
 }
 
+@media (max-width: 640px) {
+	.tableContainer {
+		min-height: 300px;
+		max-height: 300px;
+	}
+}
+
 .table {
 	width: 100%;
 	border-collapse: collapse;
