@@ -55,3 +55,24 @@
 [data-theme="sunset"] .iconLink:hover .iconCircle {
   box-shadow: 0 0 20px rgba(242, 122, 58, 0.2);
 }
+
+@media (max-width: 640px) {
+  .icons {
+    gap: 20px;
+  }
+
+  .iconCircle {
+    width: 56px;
+    height: 56px;
+  }
+
+  .iconCircle svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .iconLink {
+    font-size: 11px;
+    gap: 6px;
+  }
+}
